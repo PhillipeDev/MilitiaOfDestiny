@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, a{
+    font-family: "Albert Sans", Arial, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
+
+    /*Hex colour codes -> Darkgrey: #211f1f || Almost black: #111010*/
+    background: linear-gradient(90deg, #232222, #646464, #232222);
+}
+
+/* ------------------------ Navigation bar ---------------------*/
+#nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #111010;
+    box-shadow: 0 0 10px #111010;
+    border-bottom: 1px solid #5c0606;
+}
+
+#logo{
+    margin: auto 20px auto 0;
+}
+
+#logo img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+#nav-container a{
+    margin: 20px;
+}
+
+#nav-container button{
+    width: 120px;
+    height: 40px;
+    margin: calc(25% - 20px) 0;
+    border: 0px solid black;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: transparent;
+    color: #f2f2f2;
+}
+
+#nav-container button:hover{
+    border: 2px solid #f2f2f2;
+    cursor: pointer;
+}
+/* ------------------------ Navigation bar ---------------------*/
+
+
+/* ------------------------ Footer ---------------------*/
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    left: 0;
+    right: 0;
+    height: 110px;
+    background-color: #111010;
+    color: #f2f2f2;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #111010;
+    border-top: 1px solid #5c0606;
+}
+
+.footer-section{
+    margin: auto 0;
+    text-align: center;
+}
+
+.footer-section-title{
+    margin: 10px 0;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #595959
+}
+
+.footer-section a{
+    margin: 0 30px;
+    font-size: small;
+    color: #aeaeae;
+}
+/* ------------------------ End of Footer ---------------------*/
